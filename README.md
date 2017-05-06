@@ -7,5 +7,6 @@ Implement the Custom Element specification in Servo.
 
 # Issues
  * [Implement Custom Elements](https://github.com/servo/servo/issues/9372) (Meta Issue)
+ * [Implement Custom Element Registry](https://github.com/servo/servo/issues/16753)
 
 # Pull Requests
