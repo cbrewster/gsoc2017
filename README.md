@@ -12,3 +12,6 @@ Implement the Custom Element specification in Servo.
  * [Implement Custom Element Registry](https://github.com/servo/servo/issues/16753)
 
 # Pull Requests
+ * [Run custom element tests](https://github.com/servo/servo/pull/17101)
+ * [Implement custom element registry](https://github.com/servo/servo/pull/17112)
+
