@@ -98,10 +98,9 @@ I have not worked with the WebIDL parser before, so I will have to spend some ti
 
 **July 2 - July 29 (2 Weeks):** Implement custom element upgrades
 
-**July 30 - August 5 (2 Weeks):** Implement WebIDL CEReactions extended attribute
+**July 30 - August 12 (2 Weeks):** Implement WebIDL CEReactions extended attribute
 
-**August 6 - August 29 (> 3 Weeks):**
-Handle any unforeseen complications or issues and tidy up any loose ends.
+**August 13 - August 29 (> 2 Weeks):** Handle any unforeseen complications or issues and tidy up any loose ends.
 
 ## Open Source Development Experience
 I have been involved in open source development for almost a year as an active contributor of the Servo project. I mainly work on the constellation and browser history related issues. Outside of Servo I have landed some commits on rustfmt. Open source development has allowed me to work on larger larger projects, learn how a workflow works on large projects such as Rust and Servo, and sharpen my skills as a software developer. I plan to keep giving back and to stay involved in the open source community going forward.
