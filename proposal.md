@@ -39,7 +39,7 @@ Planned Functionality:
 I have split the project into a few smaller pieces. I will implement custom elements incrementally. I plan on placing the implementation behind a custom element preference flag at least until custom elements are fully implemented and all the relevant tests are passing.
 
 ### Custom Element Registry
-2 Weeks
+1 Week
 
 The custom element registry is in charge of managing the available custom elements in a window. Each window has its own registry.
 The registry does the following things:
@@ -90,15 +90,15 @@ I have not worked with the WebIDL parser before, so I will have to spend some ti
 ## Schedule of Deliverables
 **May 4 - May 27 (3 Weeks):** Study specification in more detail and begin initial implementations.
 
-**May 28 - June 10 (2 Weeks):** Implement the custom element registry
+**May 28 - June 3 (1 Week):** Implement the custom element registry
 
-**June 11 - June 24 (2 Weeks):** Make element creation aware of the custom element registry
+**June 4 - June 17 (2 Weeks):** Make element creation aware of the custom element registry
 
-**June 25 - July 1 (2 Weeks):** Implement custom element reactions
+**June 18 - July 1 (2 Weeks):** Implement custom element reactions
 
-**July 2 - July 29 (2 Weeks):** Implement custom element upgrades
+**July 2 - July 15 (2 Weeks):** Implement custom element upgrades
 
-**July 30 - August 12 (2 Weeks):** Implement WebIDL CEReactions extended attribute
+**July 16 - August 12 (2 Weeks + Vacation):** Implement WebIDL CEReactions extended attribute
 
 **August 13 - August 29 (> 2 Weeks):** Handle any unforeseen complications or issues and tidy up any loose ends.
 
