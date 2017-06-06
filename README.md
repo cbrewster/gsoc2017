@@ -11,6 +11,7 @@ Implement the Custom Element specification in Servo.
  * [Implement Custom Elements](https://github.com/servo/servo/issues/9372) (Meta Issue)
  * [Implement Custom Element Registry](https://github.com/servo/servo/issues/16753)
  * [Implement Custom Element Creation](https://github.com/servo/servo/issues/17191)
+ * [Support HTMLConstructor WebIDL Attribute](https://github.com/servo/servo/issues/17194)
 
 # Pull Requests
  * [Run custom element tests](https://github.com/servo/servo/pull/17101)
