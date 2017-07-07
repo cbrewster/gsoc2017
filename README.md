@@ -22,4 +22,4 @@ Implement the Custom Element specification in Servo.
  * [Implement custom element registry](https://github.com/servo/servo/pull/17112)
  * [WebIDL HTMLConstructor support](https://github.com/servo/servo/pull/17224)
  * [Custom element creation](https://github.com/servo/servo/pull/17381)
-
+ * [Implement custom element reactions](https://github.com/servo/servo/pull/17614)
