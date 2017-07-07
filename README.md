@@ -9,6 +9,7 @@ Implement the Custom Element specification in Servo.
  * [Understanding Custom Element Upgrades](https://cbrewster.github.io/2017/06/08/custom-element-upgrades/)
  * [Adventures in GSoC 1](https://cbrewster.github.io/2017/06/12/adventures-in-gsoc-1/)
  * [Adventures in GSoC 2](https://cbrewster.github.io/2017/06/19/adventures-in-gsoc-2/)
+ * [Adventures in GSoC 3](https://cbrewster.github.io/2017/07/07/adventures-in-gsoc-3/)
 
 # Issues
  * [Implement Custom Elements](https://github.com/servo/servo/issues/9372) (Meta Issue)
