@@ -94,11 +94,11 @@ I have not worked with the WebIDL parser before, so I will have to spend some ti
 
 **June 4 - June 17 (2 Weeks):** Make element creation aware of the custom element registry
 
-**June 18 - July 1 (2 Weeks):** Implement custom element reactions
+**June 18 - July 11 (3.5 Weeks):** Implement custom element reactions
 
-**July 2 - July 15 (2 Weeks):** Implement custom element upgrades
+**July 12 - July 15 (0.5 Weeks):** Implement WebIDL CEReactions extended attribute
 
-**July 16 - August 12 (2 Weeks + Vacation):** Implement WebIDL CEReactions extended attribute
+**July 16 - August 12 (2 Weeks + Vacation):** Implement custom element upgrades
 
 **August 13 - August 29 (> 2 Weeks):** Handle any unforeseen complications or issues and tidy up any loose ends.
 
