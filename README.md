@@ -10,6 +10,7 @@ Implement the Custom Element specification in Servo.
  * [Adventures in GSoC 1](https://cbrewster.github.io/2017/06/12/adventures-in-gsoc-1/)
  * [Adventures in GSoC 2](https://cbrewster.github.io/2017/06/19/adventures-in-gsoc-2/)
  * [Adventures in GSoC 3](https://cbrewster.github.io/2017/07/07/adventures-in-gsoc-3/)
+ * [Adventures in GSoC 4](https://cbrewster.github.io/2017/07/18/adventures-in-gsoc-4/)
 
 # Issues
  * [Implement Custom Elements](https://github.com/servo/servo/issues/9372) (Meta Issue)
@@ -24,3 +25,4 @@ Implement the Custom Element specification in Servo.
  * [WebIDL HTMLConstructor support](https://github.com/servo/servo/pull/17224)
  * [Custom element creation](https://github.com/servo/servo/pull/17381)
  * [Implement custom element reactions](https://github.com/servo/servo/pull/17614)
+ * [Add [CEReactions] to webidls](https://github.com/servo/servo/pull/17761)
