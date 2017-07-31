@@ -19,6 +19,7 @@ Implement the Custom Element specification in Servo.
  * [Support HTMLConstructor WebIDL Attribute](https://github.com/servo/servo/issues/17194)
  * [Implement Custom Element Reactions](https://github.com/servo/servo/issues/17433)
  * [Implement custom element upgrades](https://github.com/servo/servo/issues/17772)
+ * [Elements that are upgrading have no CE definition when callback reactions are enqueued](https://github.com/whatwg/html/issues/2876) (whatwg/html)
 
 # Pull Requests
  * [Run custom element tests](https://github.com/servo/servo/pull/17101)
