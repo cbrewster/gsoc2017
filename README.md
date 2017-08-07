@@ -23,9 +23,11 @@ Implement the Custom Element specification in Servo.
  * [Elements that are upgrading have no CE definition when callback reactions are enqueued](https://github.com/whatwg/html/issues/2876) (whatwg/html)
 
 # Pull Requests
- * [Run custom element tests](https://github.com/servo/servo/pull/17101)
- * [Implement custom element registry](https://github.com/servo/servo/pull/17112)
- * [WebIDL HTMLConstructor support](https://github.com/servo/servo/pull/17224)
- * [Custom element creation](https://github.com/servo/servo/pull/17381)
- * [Implement custom element reactions](https://github.com/servo/servo/pull/17614)
- * [Add [CEReactions] to webidls](https://github.com/servo/servo/pull/17761)
+ * [Run custom element tests](https://github.com/servo/servo/pull/17101) [Merged]
+ * [Implement custom element registry](https://github.com/servo/servo/pull/17112) [Merged]
+ * [Unwrap function before calling IsConstructor](https://github.com/servo/servo/pull/17250) [Open]
+ * [WebIDL HTMLConstructor support](https://github.com/servo/servo/pull/17224) [Merged]
+ * [Custom element creation](https://github.com/servo/servo/pull/17381) [Merged]
+ * [Implement custom element reactions](https://github.com/servo/servo/pull/17614) [Merged]
+ * [Add [CEReactions] to webidls](https://github.com/servo/servo/pull/17761) [Merged]
+ * [Custom element upgrades](https://github.com/servo/servo/pull/17935) [Open]
