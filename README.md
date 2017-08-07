@@ -11,6 +11,7 @@ Implement the Custom Element specification in Servo.
  * [Adventures in GSoC 2](https://cbrewster.github.io/2017/06/19/adventures-in-gsoc-2/)
  * [Adventures in GSoC 3](https://cbrewster.github.io/2017/07/07/adventures-in-gsoc-3/)
  * [Adventures in GSoC 4](https://cbrewster.github.io/2017/07/18/adventures-in-gsoc-4/)
+ * [Adventures in GSoC 5](https://cbrewster.github.io/2017/08/07/adventures-in-gsoc-5/)
 
 # Issues
  * [Implement Custom Elements](https://github.com/servo/servo/issues/9372) (Meta Issue)
