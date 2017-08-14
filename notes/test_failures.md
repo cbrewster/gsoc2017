@@ -7,6 +7,24 @@
     * **Reason:** Constructor is not unwraped before calling `IsConstrutor`.
     * **Pull Request:** [Unwrap function before calling IsConstructor](https://github.com/servo/servo/pull/17250)
 
+### `reactions/Element.html`
+ - [ ] setAttributeNode on Element must enqueue an attributeChanged reaction when replacing an existing attribute
+    * **Reason:** Attribute changed callback was not enqueued when replacing the attribute.
+    * **Pull Request:** [Enqueue attribute changed callback when replacing attr](https://github.com/servo/servo/pull/18074)
+
+ - [ ] setAttributeNodeNS on Element must enqueue an attributeChanged reaction when replacing an existing attribute
+    * **Reason:** Attribute changed callback was not enqueued when replacing the attribute.
+    * **Pull Request:** [Enqueue attribute changed callback when replacing attr](https://github.com/servo/servo/pull/18074)
+
+### `reactions/NamedNodeMap.html`
+ - [ ] setNamedItem on NamedNodeMap must enqueue an attributeChanged reaction when replacing an existing attribute
+    * **Reason:** Attribute changed callback was not enqueued when replacing the attribute.
+    * **Pull Request:** [Enqueue attribute changed callback when replacing attr](https://github.com/servo/servo/pull/18074)
+
+ - [ ] setNamedItemNS on NamedNodeMap must enqueue an attributeChanged reaction when replacing an existing attribute
+    * **Reason:** Attribute changed callback was not enqueued when replacing the attribute.
+    * **Pull Request:** [Enqueue attribute changed callback when replacing attr](https://github.com/servo/servo/pull/18074)
+
 ## Missing Servo Features
 
 ### `reactions/CSSStyleDeclaration.html`
@@ -72,10 +90,6 @@
 
  - [ ] slot on Element must enqueue an attributeChanged reaction when replacing an existing attribute
 
- - [ ] setAttributeNode on Element must enqueue an attributeChanged reaction when replacing an existing attribute
-
- - [ ] setAttributeNodeNS on Element must enqueue an attributeChanged reaction when replacing an existing attribute
-
  - [ ] insertAdjacentHTML on Element must enqueue a connected reaction for a newly constructed custom element
 
  - [ ] insertAdjacentHTML on Element must enqueue a attributeChanged reaction for a newly constructed custom element
@@ -128,11 +142,6 @@
  - [ ] tHead on HTMLTableElement must enqueue connectedCallback when inserting a custom element
 
  - [ ] tFoot on HTMLTableElement must enqueue connectedCallback when inserting a custom element
-
-### `reactions/NamedNodeMap.html`
- - [ ] setNamedItem on NamedNodeMap must enqueue an attributeChanged reaction when replacing an existing attribute
-
- - [ ] setNamedItemNS on NamedNodeMap must enqueue an attributeChanged reaction when replacing an existing attribute
 
 ### `reactions/Range.html`
  - [ ] createContextualFragment on Range must construct a custom element
