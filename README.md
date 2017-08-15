@@ -31,4 +31,4 @@ Implement the Custom Element specification in Servo.
  * [Implement custom element reactions](https://github.com/servo/servo/pull/17614) [Merged]
  * [Add [CEReactions] to webidls](https://github.com/servo/servo/pull/17761) [Merged]
  * [Custom element upgrades](https://github.com/servo/servo/pull/17935) [Merged]
- * [Enqueue attribute changed callback when replacing attr](https://github.com/servo/servo/pull/18074) [Open]
+ * [Enqueue attribute changed callback when replacing attr](https://github.com/servo/servo/pull/18074) [Merged]

@@ -8,20 +8,20 @@
     * **Pull Request:** [Unwrap function before calling IsConstructor](https://github.com/servo/servo/pull/17250)
 
 ### `reactions/Element.html`
- - [ ] setAttributeNode on Element must enqueue an attributeChanged reaction when replacing an existing attribute
+ - [X] setAttributeNode on Element must enqueue an attributeChanged reaction when replacing an existing attribute
     * **Reason:** Attribute changed callback was not enqueued when replacing the attribute.
     * **Pull Request:** [Enqueue attribute changed callback when replacing attr](https://github.com/servo/servo/pull/18074)
 
- - [ ] setAttributeNodeNS on Element must enqueue an attributeChanged reaction when replacing an existing attribute
+ - [X] setAttributeNodeNS on Element must enqueue an attributeChanged reaction when replacing an existing attribute
     * **Reason:** Attribute changed callback was not enqueued when replacing the attribute.
     * **Pull Request:** [Enqueue attribute changed callback when replacing attr](https://github.com/servo/servo/pull/18074)
 
 ### `reactions/NamedNodeMap.html`
- - [ ] setNamedItem on NamedNodeMap must enqueue an attributeChanged reaction when replacing an existing attribute
+ - [X] setNamedItem on NamedNodeMap must enqueue an attributeChanged reaction when replacing an existing attribute
     * **Reason:** Attribute changed callback was not enqueued when replacing the attribute.
     * **Pull Request:** [Enqueue attribute changed callback when replacing attr](https://github.com/servo/servo/pull/18074)
 
- - [ ] setNamedItemNS on NamedNodeMap must enqueue an attributeChanged reaction when replacing an existing attribute
+ - [X] setNamedItemNS on NamedNodeMap must enqueue an attributeChanged reaction when replacing an existing attribute
     * **Reason:** Attribute changed callback was not enqueued when replacing the attribute.
     * **Pull Request:** [Enqueue attribute changed callback when replacing attr](https://github.com/servo/servo/pull/18074)
 
