@@ -25,6 +25,11 @@
     * **Reason:** Attribute changed callback was not enqueued when replacing the attribute.
     * **Pull Request:** [Enqueue attribute changed callback when replacing attr](https://github.com/servo/servo/pull/18074)
 
+### `reactions/DOMTokenList.html`
+ - [ ] replace on DOMTokenList must not enqueue an attributeChanged reaction when the token to replace does not exist in the attribute
+    * **Reason:** The update steps were ran even if the token did not exist in the attribute; this caused a reaction to be triggered
+    * **Pull Request:** [Only run DOMTokenList update steps if token was found](https://github.com/servo/servo/pull/18092)
+
 ## Missing Servo Features
 
 ### `reactions/CSSStyleDeclaration.html`
@@ -81,9 +86,6 @@
  - [ ] HTML parser must not instantiate custom elements inside template elements
 
  - [ ] HTML parser must use the registry of window.document in a document created by `document.implementation.createHTMLDocument()`
-
-### `reactions/DOMTokenList.html`
- - [ ] replace on DOMTokenList must not enqueue an attributeChanged reaction when the token to replace does not exist in the attribute
 
 ### `reactions/Element.html`
  - [ ] slot on Element must enqueue an attributeChanged reaction when adding slot content attribute
