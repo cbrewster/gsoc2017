@@ -40,6 +40,13 @@
  - [ ] execCommand on Document must enqueue a disconnected reaction when deleting a custom element from a contenteditable element
     * **Reason:** `execCommand` is not implemented.
 
+### `reactions/Element.html`
+ - [ ] slot on Element must enqueue an attributeChanged reaction when adding slot content attribute
+    * **Reason:** Servo does not implement Shadow DOM.
+
+ - [ ] slot on Element must enqueue an attributeChanged reaction when replacing an existing attribute
+    * **Reason:** Servo does not implement Shadow DOM.
+
 ### `reactions/ElementContentEditable.html`
  - [ ] contentEditable on ElementContentEditable must enqueue an attributeChanged reaction when adding contenteditable content attribute
     * **Reason:** `contenteditable` is not implemented in Servo.
@@ -88,10 +95,6 @@
  - [ ] HTML parser must use the registry of window.document in a document created by `document.implementation.createHTMLDocument()`
 
 ### `reactions/Element.html`
- - [ ] slot on Element must enqueue an attributeChanged reaction when adding slot content attribute
-
- - [ ] slot on Element must enqueue an attributeChanged reaction when replacing an existing attribute
-
  - [ ] insertAdjacentHTML on Element must enqueue a connected reaction for a newly constructed custom element
 
  - [ ] insertAdjacentHTML on Element must enqueue a attributeChanged reaction for a newly constructed custom element
