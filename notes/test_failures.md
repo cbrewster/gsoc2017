@@ -3,7 +3,7 @@
 ## Incorrect Implementation
 
 ### `custom-element-registry/define.html`
- - [ ] If constructor is arrow function, should throw a TypeError
+ - [X] If constructor is arrow function, should throw a TypeError
     * **Reason:** Constructor is not unwraped before calling `IsConstrutor`.
     * **Pull Request:** [Unwrap function before calling IsConstructor](https://github.com/servo/servo/pull/17250)
 
