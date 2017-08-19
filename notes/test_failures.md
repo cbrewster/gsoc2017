@@ -16,6 +16,15 @@
     * **Reason:** Attribute changed callback was not enqueued when replacing the attribute.
     * **Pull Request:** [Enqueue attribute changed callback when replacing attr](https://github.com/servo/servo/pull/18074)
 
+ - [X] insertAdjacentHTML on Element must enqueue a connected reaction for a newly constructed custom element
+    * **Reason:** `insertAdjacentHTML` was not annotated with `CEReactions`.
+    * **Pull Request:** [Annotate insertAdjacentHTML with CEReactions](https://github.com/servo/servo/pull/18146)
+
+
+ - [X] insertAdjacentHTML on Element must enqueue a attributeChanged reaction for a newly constructed custom element
+    * **Reason:** `insertAdjacentHTML` was not annotated with `CEReactions`.
+    * **Pull Request:** [Annotate insertAdjacentHTML with CEReactions](https://github.com/servo/servo/pull/18146)
+
 ### `reactions/NamedNodeMap.html`
  - [X] setNamedItem on NamedNodeMap must enqueue an attributeChanged reaction when replacing an existing attribute
     * **Reason:** Attribute changed callback was not enqueued when replacing the attribute.
@@ -93,11 +102,6 @@
  - [ ] HTML parser must not instantiate custom elements inside template elements
 
  - [ ] HTML parser must use the registry of window.document in a document created by `document.implementation.createHTMLDocument()`
-
-### `reactions/Element.html`
- - [ ] insertAdjacentHTML on Element must enqueue a connected reaction for a newly constructed custom element
-
- - [ ] insertAdjacentHTML on Element must enqueue a attributeChanged reaction for a newly constructed custom element
 
 ### `reactions/HTMLElement.html`
  - [ ] translate on HTMLElement must enqueue an attributeChanged reaction when adding translate content attribute
