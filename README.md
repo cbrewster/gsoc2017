@@ -33,4 +33,4 @@ Implement the Custom Element specification in Servo.
  * [Custom element upgrades](https://github.com/servo/servo/pull/17935) [Merged]
  * [Enqueue attribute changed callback when replacing attr](https://github.com/servo/servo/pull/18074) [Merged]
  * [Only run DOMTokenList update steps if token was found](https://github.com/servo/servo/pull/18092) [Open]
- * [Annotate insertAdjacentHTML with CEReactions](https://github.com/servo/servo/pull/18146)
+ * [Annotate insertAdjacentHTML with CEReactions](https://github.com/servo/servo/pull/18146) [Merged]
