@@ -63,6 +63,58 @@
  - [ ] contentEditable on ElementContentEditable must enqueue an attributeChanged reaction when replacing an existing attribute
     * **Reason:** `contenteditable` is not implemented in Servo.
 
+### `reactions/HTMLElement.html`
+ - [ ] translate on HTMLElement must enqueue an attributeChanged reaction when adding translate content attribute
+    * **Reason:** `translate` is not implemented in Servo.
+
+ - [ ] translate on HTMLElement must enqueue an attributeChanged reaction when replacing an existing attribute
+    * **Reason:** `translate` is not implemented in Servo.
+
+ - [ ] dir on HTMLElement must enqueue an attributeChanged reaction when adding dir content attribute
+    * **Reason:** `dir` is not implemented in Servo.
+
+ - [ ] dir on HTMLElement must enqueue an attributeChanged reaction when replacing an existing attribute
+    * **Reason:** `dir` is not implemented in Servo.
+
+ - [ ] tabIndex on HTMLElement must enqueue an attributeChanged reaction when adding tabindex content attribute
+    * **Reason:** `tabIndex` is not implemented in Servo.
+
+ - [ ] tabIndex on HTMLElement must enqueue an attributeChanged reaction when replacing an existing attribute
+    * **Reason:** `tabIndex` is not implemented in Servo.
+
+ - [ ] accessKey on HTMLElement must enqueue an attributeChanged reaction when adding accesskey content attribute
+    * **Reason:** `accessKey` is not implemented in Servo.
+
+ - [ ] accessKey on HTMLElement must enqueue an attributeChanged reaction when replacing an existing attribute
+    * **Reason:** `accessKey` is not implemented in Servo.
+
+ - [ ] draggable on HTMLElement must enqueue an attributeChanged reaction when adding draggable content attribute
+    * **Reason:** `draggable` is not implemented in Servo.
+
+ - [ ] draggable on HTMLElement must enqueue an attributeChanged reaction when replacing an existing attribute
+    * **Reason:** `draggable` is not implemented in Servo.
+
+ - [ ] dropzone on HTMLElement must enqueue an attributeChanged reaction when adding dropzone content attribute
+    * **Reason:** `dropzone` is not implemented in Servo.
+
+ - [ ] dropzone on HTMLElement must enqueue an attributeChanged reaction when replacing an existing attribute
+    * **Reason:** `dropzone` is not implemented in Servo.
+
+ - [ ] contextMenu on HTMLElement must enqueue an attributeChanged reaction when adding contextmenu content attribute
+    * **Reason:** `contextMenu` is not implemented in Servo.
+
+ - [ ] contextMenu on HTMLElement must enqueue an attributeChanged reaction when replacing an existing attribute
+    * **Reason:** `contextMenu` is not implemented in Servo.
+
+ - [ ] spellcheck on HTMLElement must enqueue an attributeChanged reaction when adding spellcheck content attribute
+    * **Reason:** `spellcheck` is not implemented in Servo.
+
+ - [ ] spellcheck on HTMLElement must enqueue an attributeChanged reaction when replacing an existing attribute
+    * **Reason:** `spellcheck` is not implemented in Servo.
+
+ - [ ] innerText on HTMLElement must enqueue a disconnected reaction
+    * **Reason:** `innerText` is not implemented in Servo.
+
 ### `reactions/HTMLOutputElement.html`
  - [ ] value on HTMLOutputElement must enqueue disconnectedCallback when removing a custom element
     * **Reason:** `value` is not implemented for `HTMLOutputElement`.
@@ -102,41 +154,6 @@
  - [ ] HTML parser must not instantiate custom elements inside template elements
 
  - [ ] HTML parser must use the registry of window.document in a document created by `document.implementation.createHTMLDocument()`
-
-### `reactions/HTMLElement.html`
- - [ ] translate on HTMLElement must enqueue an attributeChanged reaction when adding translate content attribute
-
- - [ ] translate on HTMLElement must enqueue an attributeChanged reaction when replacing an existing attribute
-
- - [ ] dir on HTMLElement must enqueue an attributeChanged reaction when adding dir content attribute
-
- - [ ] dir on HTMLElement must enqueue an attributeChanged reaction when replacing an existing attribute
-
- - [ ] tabIndex on HTMLElement must enqueue an attributeChanged reaction when adding tabindex content attribute
-
- - [ ] tabIndex on HTMLElement must enqueue an attributeChanged reaction when replacing an existing attribute
-
- - [ ] accessKey on HTMLElement must enqueue an attributeChanged reaction when adding accesskey content attribute
-
- - [ ] accessKey on HTMLElement must enqueue an attributeChanged reaction when replacing an existing attribute
-
- - [ ] draggable on HTMLElement must enqueue an attributeChanged reaction when adding draggable content attribute
-
- - [ ] draggable on HTMLElement must enqueue an attributeChanged reaction when replacing an existing attribute
-
- - [ ] dropzone on HTMLElement must enqueue an attributeChanged reaction when adding dropzone content attribute
-
- - [ ] dropzone on HTMLElement must enqueue an attributeChanged reaction when replacing an existing attribute
-
- - [ ] contextMenu on HTMLElement must enqueue an attributeChanged reaction when adding contextmenu content attribute
-
- - [ ] contextMenu on HTMLElement must enqueue an attributeChanged reaction when replacing an existing attribute
-
- - [ ] spellcheck on HTMLElement must enqueue an attributeChanged reaction when adding spellcheck content attribute
-
- - [ ] spellcheck on HTMLElement must enqueue an attributeChanged reaction when replacing an existing attribute
-
- - [ ] innerText on HTMLElement must enqueue a disconnected reaction
 
 ### `reactions/HTMLSelectElement.html`
  - [ ] The indexed setter on HTMLSelectElement must enqueue connectedCallback when inserting a custom element
