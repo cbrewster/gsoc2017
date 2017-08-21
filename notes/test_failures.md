@@ -148,6 +148,10 @@
  - [ ] Shadow host/tree related tests
     * **Reason:** Servo does not implement Shadow DOM.
 
+### `CustomElementRegistry.html`
+ - [ ] customElements.define must upgrade elements in the shadow-including tree order
+    * **Reason:** Servo does not implement Shadow DOM.
+
 ## Unknown (Need to Investigate)
 
 ### `parser/parser-uses-registry-of-owner-document.html`
@@ -174,6 +178,3 @@
 
 ### `attribute-changed-callback.html`
  - [ ] Custom Elements: attributeChangedCallback
-
-### `CustomElementRegistry.html`
- - [ ] customElements.define must upgrade elements in the shadow-including tree order
