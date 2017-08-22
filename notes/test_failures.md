@@ -152,6 +152,20 @@
  - [ ] customElements.define must upgrade elements in the shadow-including tree order
     * **Reason:** Servo does not implement Shadow DOM.
 
+## Spec Issue?
+
+### `reactions/HTMLTableElement.html`
+**Issue:** The custom element is created via the fragment parsing algorithm. This means the document has no browsing
+context and therefore a HTMLElement is created. When the element is inserted into the caption element, the element is
+not connected because the caption element is not connected. This means no upgrade steps are ran, and the constructed
+callback is never called.
+
+ - [ ] caption on HTMLTableElement must enqueue connectedCallback when inserting a custom element
+
+ - [ ] tHead on HTMLTableElement must enqueue connectedCallback when inserting a custom element
+
+ - [ ] tFoot on HTMLTableElement must enqueue connectedCallback when inserting a custom element
+
 ## Unknown (Need to Investigate)
 
 ### `parser/parser-uses-registry-of-owner-document.html`
@@ -165,13 +179,6 @@
  - [ ] The indexed setter on HTMLSelectElement must enqueue disconnectedCallback when removing a custom element
 
  - [ ] add on HTMLSelectElement must enqueue connectedCallback when inserting a custom element
-
-### `reactions/HTMLTableElement.html`
- - [ ] caption on HTMLTableElement must enqueue connectedCallback when inserting a custom element
-
- - [ ] tHead on HTMLTableElement must enqueue connectedCallback when inserting a custom element
-
- - [ ] tFoot on HTMLTableElement must enqueue connectedCallback when inserting a custom element
 
 ### `reactions/Range.html`
  - [ ] createContextualFragment on Range must construct a custom element
