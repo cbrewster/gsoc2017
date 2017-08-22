@@ -182,6 +182,3 @@ callback is never called.
 
 ### `reactions/Range.html`
  - [ ] createContextualFragment on Range must construct a custom element
-
-### `attribute-changed-callback.html`
- - [ ] Custom Elements: attributeChangedCallback
