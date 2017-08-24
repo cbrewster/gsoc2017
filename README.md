@@ -1,6 +1,8 @@
 # GSoC 2017
 
-Implement the Custom Element specification in Servo.
+Custom Elements are an exciting development for the Web Platform. They are apart of the Web Components APIs. The goal is to allow web developers to create reusable web components with first-class support from the browser. The Custom Element portion of Web Components allows for elements with custom names and behaviors to be defined and used via HTML tags.
+
+This project aims to implement the Custom Element specification in Servo.
 
 [WHATWG Specification](https://html.spec.whatwg.org/multipage/#custom-elements)
 
