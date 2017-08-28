@@ -41,6 +41,11 @@
 
 ## Missing Servo Features
 
+### `parser/parser-uses-registry-of-owner-document.html`
+ - [ ] HTML parser must not instantiate custom elements inside template elements
+    * **Reason:** The parser picks the incorrect document when creating elements for template contents.
+    * **Issue:** [Incorrect Document can be used when creating elements during parsing](https://github.com/servo/servo/issues/18277)
+
 ### `reactions/CSSStyleDeclaration.html`
  - [ ] webkit prefixed related tests
     * **Reason:** `webkit-filter` is missing from `CSSStyleDeclaration.webidl`.
@@ -169,8 +174,6 @@ callback is never called.
 ## Unknown (Need to Investigate)
 
 ### `parser/parser-uses-registry-of-owner-document.html`
- - [ ] HTML parser must not instantiate custom elements inside template elements
-
  - [ ] HTML parser must use the registry of window.document in a document created by `document.implementation.createHTMLDocument()`
 
 ### `reactions/HTMLSelectElement.html`
