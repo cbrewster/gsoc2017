@@ -127,6 +127,16 @@
  - [ ] defaultValue on HTMLOutputElement must enqueue disconnectedCallback when removing a custom element
     * **Reason:** `defaultValue` is not implemented for `HTMLOutputElement`.
 
+### `reactions/HTMLSelectElement.html`
+ - [ ] The indexed setter on HTMLSelectElement must enqueue connectedCallback when inserting a custom element
+    * **Reason:** the indexed setter is not implemented for `HTMLSelectElement`.
+
+ - [ ] The indexed setter on HTMLSelectElement must enqueue disconnectedCallback when removing a custom element
+    * **Reason:** the indexed setter is not implemented for `HTMLSelectElement`.
+
+ - [ ] add on HTMLSelectElement must enqueue connectedCallback when inserting a custom element
+    * **Reason:** `add` exists for `HTMLSelectElement`, but the implementation does nothing.
+
 ### `reactions/Selection.html`
  - [ ] deleteFromDocument on Selection must enqueue a disconnected reaction
     * **Reason:** Servo does not implement the `Selection` API.
@@ -175,13 +185,6 @@ callback is never called.
 
 ### `parser/parser-uses-registry-of-owner-document.html`
  - [ ] HTML parser must use the registry of window.document in a document created by `document.implementation.createHTMLDocument()`
-
-### `reactions/HTMLSelectElement.html`
- - [ ] The indexed setter on HTMLSelectElement must enqueue connectedCallback when inserting a custom element
-
- - [ ] The indexed setter on HTMLSelectElement must enqueue disconnectedCallback when removing a custom element
-
- - [ ] add on HTMLSelectElement must enqueue connectedCallback when inserting a custom element
 
 ### `reactions/Range.html`
  - [ ] createContextualFragment on Range must construct a custom element
